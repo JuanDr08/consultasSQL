@@ -16,6 +16,14 @@ import {
     getAllQuantityOfficesForEachCountry,
     getTotalSalesForEachOffice
 } from './offices.js'
+import {
+    getAllOrdersWithStatusSHipped,
+    getAllOrdersByCustomersCountry,
+    getAllDetailsOrdersByCustomerNumber,
+    getTotalOrdersForEachCustomer,
+    getTotalSalesForEachCustomer,
+    getTotalSalesForEachCountry
+} from './orders.js'
 export {
     getAllUSACustomersWithCreditLimit,
     getAverageCreditLimitOfAllCustomers,
@@ -28,5 +36,11 @@ export {
     getQuantityEmployeesByJobTitle,
     getAverageSalesForEachEmployee,
     getAllQuantityOfficesForEachCountry,
-    getTotalSalesForEachOffice
+    getTotalSalesForEachOffice,
+    getAllOrdersWithStatusSHipped,
+    getAllOrdersByCustomersCountry,
+    getAllDetailsOrdersByCustomerNumber,
+    getTotalOrdersForEachCustomer,
+    getTotalSalesForEachCustomer,
+    getTotalSalesForEachCountry
 }
