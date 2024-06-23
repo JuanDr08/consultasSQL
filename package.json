@@ -1,0 +1,16 @@
+{
+  "name": "consultassql",
+  "version": "1.0.0",
+  "description": "Consultas de practica de MySQL usando Node.js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node js/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "3.10.1"
+  }
+}
