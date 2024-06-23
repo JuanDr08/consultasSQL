@@ -24,6 +24,15 @@ import {
     getTotalSalesForEachCustomer,
     getTotalSalesForEachCountry
 } from './orders.js'
+import {
+    getAllPaymentsdetailByCustomer,
+    getTotalPaymentForEachCustomer,
+    getTotalPayments,
+    getTotalPaymentsForEachCustumer,
+    getTotalPaymentsForEachCountry,
+    getTotalPaymentsForEachSeller,
+    getTotalPaymentsForEachYear
+} from './payments.js'
 export {
     getAllUSACustomersWithCreditLimit,
     getAverageCreditLimitOfAllCustomers,
@@ -42,5 +51,12 @@ export {
     getAllDetailsOrdersByCustomerNumber,
     getTotalOrdersForEachCustomer,
     getTotalSalesForEachCustomer,
-    getTotalSalesForEachCountry
+    getTotalSalesForEachCountry,
+    getAllPaymentsdetailByCustomer,
+    getTotalPaymentForEachCustomer,
+    getTotalPayments,
+    getTotalPaymentsForEachCustumer,
+    getTotalPaymentsForEachCountry,
+    getTotalPaymentsForEachSeller,
+    getTotalPaymentsForEachYear
 }
