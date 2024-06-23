@@ -12,6 +12,10 @@ import {
     getQuantityEmployeesByJobTitle,
     getAverageSalesForEachEmployee
 } from './employees.js'
+import {
+    getAllQuantityOfficesForEachCountry,
+    getTotalSalesForEachOffice
+} from './offices.js'
 export {
     getAllUSACustomersWithCreditLimit,
     getAverageCreditLimitOfAllCustomers,
@@ -23,4 +27,6 @@ export {
     getTotalQuantityEmployees,
     getQuantityEmployeesByJobTitle,
     getAverageSalesForEachEmployee,
+    getAllQuantityOfficesForEachCountry,
+    getTotalSalesForEachOffice
 }
