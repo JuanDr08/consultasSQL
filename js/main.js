@@ -1,2 +1,3 @@
 import * as m from './modules/index.js'
-m.hola()
+
+console.log(await m.getAllUSACustomersWithCreditLimit())
