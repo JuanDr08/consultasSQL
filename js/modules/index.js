@@ -33,6 +33,19 @@ import {
     getTotalPaymentsForEachSeller,
     getTotalPaymentsForEachYear
 } from './payments.js'
+import {
+    getAllProductsDescription,
+    getAllProductsWithDescription,
+    getTotalProductsInStock,
+    getAverageBuyPriceOfAllProducts,
+    getAverageQuantityProductsOrederedByOrders,
+    getTotalPriceOfAllProducts,
+    getAverageSuggestedPriceOfProducts,
+    getTotalOrderedProductsForEachCustomer,
+    getTotalQuantityProductsSalesForEachProductLine,
+    getAverageQuantityProductsForEachCustomer,
+    getTotalQuantityProductsSalesForEahSeller
+} from './product.js'
 export {
     getAllUSACustomersWithCreditLimit,
     getAverageCreditLimitOfAllCustomers,
@@ -58,5 +71,16 @@ export {
     getTotalPaymentsForEachCustumer,
     getTotalPaymentsForEachCountry,
     getTotalPaymentsForEachSeller,
-    getTotalPaymentsForEachYear
+    getTotalPaymentsForEachYear,
+    getAllProductsDescription,
+    getAllProductsWithDescription,
+    getTotalProductsInStock,
+    getAverageBuyPriceOfAllProducts,
+    getAverageQuantityProductsOrederedByOrders,
+    getTotalPriceOfAllProducts,
+    getAverageSuggestedPriceOfProducts,
+    getTotalOrderedProductsForEachCustomer,
+    getTotalQuantityProductsSalesForEachProductLine,
+    getAverageQuantityProductsForEachCustomer,
+    getTotalQuantityProductsSalesForEahSeller
 }
