@@ -46,6 +46,12 @@ import {
     getAverageQuantityProductsForEachCustomer,
     getTotalQuantityProductsSalesForEahSeller
 } from './product.js'
+import {
+    getAverageQuantityProductsInStockByProductsLine,
+    getAverageBuyPriceProductosByProductsLine,
+    getAverageBuyPriceProductosForEachCustomer,
+    getAverageBuyPriceProductsByProductLine
+} from './productLines.js'
 export {
     getAllUSACustomersWithCreditLimit,
     getAverageCreditLimitOfAllCustomers,
@@ -82,5 +88,9 @@ export {
     getTotalOrderedProductsForEachCustomer,
     getTotalQuantityProductsSalesForEachProductLine,
     getAverageQuantityProductsForEachCustomer,
-    getTotalQuantityProductsSalesForEahSeller
+    getTotalQuantityProductsSalesForEahSeller,
+    getAverageQuantityProductsInStockByProductsLine,
+    getAverageBuyPriceProductosByProductsLine,
+    getAverageBuyPriceProductosForEachCustomer,
+    getAverageBuyPriceProductsByProductLine
 }
